@@ -23,3 +23,7 @@ body {
   font-family: "Times New Roman", "Times New Roman", Times, serif;
   background-color: var(--secondary-color);
 }
+
+main {
+  background-color: var(--bg-color);
+}
