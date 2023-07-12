@@ -27,3 +27,22 @@ body {
 main {
   background-color: var(--bg-color);
 }
+
+/* header */
+
+.header {
+  padding: 1.4em 0;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.4em;
+  color: var(--headline-color);
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 0.15em;
+}
+
+.title-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
