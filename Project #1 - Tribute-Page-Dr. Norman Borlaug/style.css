@@ -8,6 +8,7 @@
   --time-color: #8c7851;
   --secondary-color: #eaddcd;
   --media-caption-color: #8c7851;
+  --tertiary-color: #f25042;
   --border-color: #020826;
 }
 
@@ -158,4 +159,32 @@ main {
 
 .list-of-time .time {
   font-weight: 700;
+}
+
+.qoute {
+  color: var(--text-color);
+  padding-top: 1em;
+  border-top: 1px solid var(--time-color);
+  margin: 2em 4em;
+  text-align: center;
+}
+
+.qoute > p {
+  margin-bottom: 0.5rem;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
 }
