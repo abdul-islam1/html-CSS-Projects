@@ -142,4 +142,20 @@ main {
   color: var(--headline-color);
 }
 
-.l
+.list-of-time {
+  margin: 0 4rem;
+}
+
+.list-of-time * {
+  margin-top: 1.2rem;
+}
+
+.list-of-time > li {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.list-of-time .time {
+  font-weight: 700;
+}
