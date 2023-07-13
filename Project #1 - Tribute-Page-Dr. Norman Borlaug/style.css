@@ -32,6 +32,7 @@ main {
 
 .header {
   padding: 1.4em 0;
+  text-align: center;
 }
 
 .title {
@@ -122,3 +123,23 @@ main {
 }
 
 /* article */
+
+@media (min-width: 35em) {
+  .tribute-info {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.tribute-info > * + * {
+  margin: 3em 0;
+}
+
+.headline {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.l
